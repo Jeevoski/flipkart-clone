@@ -1,0 +1,409 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#header {
+  background-color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 1%;
+  z-index: 1;
+  height: 7%;
+}
+
+.container {
+  max-width: 2000px;  /* Reduce width to match screenshot */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left; 
+}
+
+.right {
+  float: right;
+}
+
+.col-1 {
+  width: 60%;
+}
+
+.col-2 {
+  width: 38%;
+}
+
+.logo {
+  float: left;
+  width: auto;
+  margin-right: 40px;
+}
+
+.logo img {
+  height: 35px;
+  margin-top: 5px;
+}
+
+.search {
+  float: left;
+   width: 70%;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  height: 35px;
+  padding-left: 35px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  background-color: #f0f5ff;
+
+  background-image: url('https://cdn-icons-png.flaticon.com/128/5636/5636698.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+} 
+
+.col-2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px 15px;
+}
+
+.col-2 ul li {
+  display: inline-block;
+  margin-left: 60px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.col-2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+*{
+ text-decoration: none;
+}
+
+
+#section-1 {
+  background-color: white;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+#section-1 .product {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+#section-1.product img{
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+}
+
+#section-1 h4{
+  margin-top: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 1em sans-serif ;
+}
+
+#banner{
+  margin-top: 10px;
+  width: 50px;
+}
+
+#banner.img{
+  width: 10px;
+}
+
+
+/* ---------- FULL‑WIDTH HERO BANNER TWEAK ---------- */
+#banner{
+  margin:12px 0 0;
+  width:100%;
+}
+#banner img{
+  width:100%;
+  height:calc(100vw * 540 / 3240);   /* keeps original 3240×540 ratio, scales with viewport   */
+  max-height:420px;                   /* optional safety cap */
+  object-fit:cover;
+  display:block;
+}
+
+/* ---------- BEST‑OF‑ELECTRONICS ---------- */
+#best-of-electronics{
+  background:#fff;
+  padding:24px 0 40px;
+  border-bottom:1px solid #e0e0e0;
+  position:relative;
+  overflow:hidden;      /* stops accidental horizontal scroll bars */
+}
+
+#best-of-electronics .container{
+  max-width:1240px;
+  margin:0 auto;
+  position:relative;
+}
+
+/* section heading */
+.section-title{
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:16px;
+  color:#212121;
+}
+
+/* product carousel */
+.prod-track{
+  display:flex;
+  gap:20px;
+  overflow-x:auto;
+  scroll-behavior:smooth;
+  padding-right:270px;      /* leave room for right‑side banner */
+}
+
+.p-card{
+  flex:0 0 160px;
+  background:#f7f7f7;
+  border-radius:4px;
+  text-align:center;
+  padding:12px 8px;
+  cursor:pointer;
+  transition:box-shadow .2s;
+}
+
+.p-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.15);}
+
+.p-card img{
+  width:100%;
+  height:120px;
+  object-fit:contain;
+}
+
+.p-card p{
+  margin-top:8px;
+  font-size:14px;
+  color:#212121;
+  font-weight:500;
+}
+
+/* arrows */
+.nav-arrow{
+  position:absolute;
+  top:60px;
+  width:36px;
+  height:36px;
+  border:none;
+  background:#fff;
+  border-radius:50%;
+  box-shadow:0 1px 4px rgba(0,0,0,.2);
+  cursor:pointer;
+  font-size:22px;
+  line-height:36px;
+  text-align:center;
+  z-index:2;
+}
+
+.nav-arrow.left{left:-18px;}
+.nav-arrow.right{right:260px;}  /* stops before side banner */
+
+/* right promotional banner */
+.side-banner{
+  position:absolute;
+  top:0;
+  right:0;
+  width:240px;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.side-banner img{
+  width:100%;
+  height:auto;
+  border-radius:4px;
+}
+
+/* hide arrows on small screens */
+@media (max-width:900px){
+  .nav-arrow{display:none;}
+  .prod-track{padding-right:15px;}
+  .side-banner{display:none;}
+}
+
+/* ---------- MID‑PAGE BANNER ---------- */
+#mid-banner{
+  margin: 40px 0;         /* breathing space above + below */
+  width:100%;
+}
+
+#mid-banner img{
+  width:100%;
+  height:calc(100vw * 540 / 3240);  /* preserves original aspect ratio responsively */
+  max-height:420px;                 /* safety cap on huge monitors */
+  object-fit:cover;
+  display:block;
+  border-radius:4px;
+}
+
+
+/* --------- BRAND DIRECTORY SECTION --------- */
+#brand-directory {
+  background-color: #f1f3f6;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #212121;
+}
+
+#brand-directory .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#brand-directory h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#brand-directory .brand-group {
+  margin-bottom: 20px;
+}
+
+#brand-directory .brand-group h3 {
+  font-size: 15px;
+  color: #565656;
+  margin-bottom: 5px;
+}
+
+#brand-directory .brand-group p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+#brand-directory a {
+  color: #565656;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+#brand-directory a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- MAIN FOOTER ---------- */
+#footer{
+  background:#000;                 /* pure black */
+  color:#ddd;                      /* light grey text */
+  font-size:14px;
+  line-height:1.8;
+}
+
+#footer .container{
+  max-width:1200px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:30px;
+}
+
+.footer-col h4{
+  font-size:14px;
+  color:#fff;
+  margin-bottom:10px;
+  font-weight:600;
+}
+
+#footer a{
+  color:#ddd;
+  text-decoration:none;
+  display:block;
+}
+
+#footer a:hover{
+  color:#fff;
+  text-decoration:underline;
+}
+
+#footer address{
+  font-style:normal;
+}
+
+.mini-footer{
+  background:#111;
+  text-align:center;
+  padding:12px 10px;
+  font-size:13px;
+  color:#aaa;
+}
+
+/* mobile tweaks */
+@media(max-width:600px){
+  #footer .container{padding:30px 15px;}
+  .footer-grid{gap:20px;}
+}
+
+/* Container should be positioned relatively */
+.electronics-section {
+  position: relative;
+  padding: 20px;
+  background: #fff;
+}
+
+/* Arrow buttons */
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/* Left arrow (optional if used) */
+.arrow-left {
+  left: 0;
+}
+
+/* Right arrow */
+.arrow-right {
+  right: 0;
+}
+
