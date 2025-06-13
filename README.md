@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d3b4c02243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-1 left">
+          <div class="logo">
+            <a href="#">
+              <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus_mobile-39120d.svg" alt="Flipkart Logo">
+            </a>
+          </div>
+          <div class="search">
+            <form action="#">
+              <input type="text" placeholder="Search for Products, Brands and More">
+            </form>
+          </div>
+        </div>
+        <div class="col-2 right">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-shop"></i> Become a Seller</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i> Sign In</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+            <li><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="section-1">
+  <div class="container">
+    <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100" alt="kilos">
+        <div class="p-desc"></div>
+        <h4>kilos</h4>
+      </a>
+    </div>
+
+    <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100" alt="mobiles">
+        <div class="p-desc"></div>
+        <h4>mobiles</h4>
+      </a>
+    </div>
+    <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100" alt="fashion">
+        <div class="p-desc"></div>
+        <h4>Fashion</h4>
+      </a>
+    </div><div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100" alt="electronics">
+        <div class="p-desc"></div>
+        <h4>electronics</h4>
+      </a>
+    </div>
+     <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100" alt="Furniture">
+        <div class="p-desc"></div>
+        <h4>furnitures</h4>
+      </a>
+    </div>
+      <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100" alt="Appliances">
+        <div class="p-desc"></div>
+        <h4>appliances</h4>
+      </a>
+    </div>
+          <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100" alt="flight">
+        <div class="p-desc"></div>
+        <h4>Flight Tickets</h4>
+      </a>
+    </div>
+    <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100" alt="Beauty,Toys & more">
+        <div class="p-desc"></div>
+        <h4>Beauty,Toys & more</h4>
+      </a>
+    </div>
+     <div class="product">
+      <a href="#">
+        <div class="p-img"></div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100" alt="Two Wheelers">
+        <div class="p-desc"></div>
+        <h4>Two Wheelers</h4>
+      </a>
+    </div>
+    <div id="banner">
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/d4112ad38bc41def.jpg?q=60" alt="banner">
+    </div>
+    <!-- ================= BEST‑OF‑ELECTRONICS STRIP ================= -->
+<section id="best-of-electronics">
+  <div class="container">
+
+    <h2 class="section-title">Best of Electronics</h2>
+
+    <!-- product scroller -->
+    <button class="nav-arrow left">&#8249;</button>
+    <div class="prod-track">
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/kz1lle80/smartwatch/m/f/q/-original-imagb54tb6fpurze.jpeg?q=60"
+             alt="Smartwatch">
+        <p>Smart Watch</p>
+      </div>
+
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/xif0q/printer/s/8/d/-original-imafkykednshkhx5.jpeg?q=60"
+             alt="Canon Printer">
+        <p>Canon Printer</p>
+      </div>
+
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/xif0q/monitor/v/m/t/vx2776-smhd-3-full-hd-27-2024-vx2776-smhd-3-viewsonic-original-imahcjt6ffg9wc93.jpeg?q=60"
+             alt="Dell Monitor">
+        <p>Dell Monitor</p>
+      </div>
+
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=60"
+             alt="Philips Trimmer">
+        <p>Philips Trimmer</p>
+      </div>
+
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/xif0q/projector/u/s/0/zeb-qlp-5-pixaplay-73-13-12-zeb-qlp-5-pixaplay-73-full-hd-original-imahch2exerg3uyf.jpeg?q=60"
+             alt="Projector">
+        <p>Projector</p>
+      </div>
+
+      <div class="p-card">
+        <img src="https://rukminim1.flixcart.com/image/240/240/xif0q/dslr-camera/e/h/v/dmc-g85kgw-k-16-dmc-g85kgw-k-panasonic-original-imagzknqpwukucj8.jpeg?q=60"
+             alt="Lenovo Tab">
+        <p>mirrorless dslr-camera</p>
+      </div>
+      <!-- add more cards as you like -->
+    </div>
+    <button class="nav-arrow right">&#8250;</button>
+
+</section>
+   <!-- ================== MID‑PAGE FULL‑WIDTH BANNER ================== -->
+<section id="mid-banner">
+  <img
+    src="https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/d536b08c8da98391.jpeg?q=60"
+    alt="Mid‑season offer"
+  >
+</section>
+<!-- =============== BRAND DIRECTORY =============== -->
+<section id="brand-directory">
+  <div class="container">
+    <h2>Top Stories : Brand Directory</h2>
+
+    <div class="brand-group">
+      <h3>MOST SEARCHED FOR ON FLIPKART:</h3>
+      <p>
+        <a href="#">SAMSUNG Galaxy S25</a> |
+        <a href="#">MOTOROLA Razr 60</a> |
+        <a href="#">CMF Phone 2 Pro</a> |
+        <a href="#">Google Pixel 9A</a> |
+        <a href="#">iPhone 16</a> |
+        <a href="#">Nothing Phone 3</a>
+        <!-- Add more links as needed -->
+      </p>
+    </div>
+
+    <div class="brand-group">
+      <h3>MOBILES</h3>
+      <p>
+        <a href="#">Samsung Galaxy S24</a> |
+        <a href="#">iPhone 15</a> |
+        <a href="#">Realme 12+</a> |
+        <a href="#">Motorola Edge 50 Fusion</a>
+      </p>
+    </div>
+
+    <div class="brand-group">
+      <h3>LAPTOPS</h3>
+      <p>
+        <a href="#">Asus ROG Ally</a> |
+        <a href="#">MacBook Pro M2</a> |
+        <a href="#">ASUS TUF Gaming</a> |
+        <a href="#">HP Victus</a>
+      </p>
+    </div>
+
+    <!-- Add more brand-group blocks as needed -->
+  </div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer id="footer">
+  <div class="container footer-grid">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <h4>ABOUT</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Flipkart Stories</a>
+      <a href="#">Press</a>
+      <a href="#">Corporate Information</a>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <h4>HELP</h4>
+      <a href="#">Payments</a>
+      <a href="#">Shipping</a>
+      <a href="#">Cancellation &amp; Returns</a>
+      <a href="#">FAQ</a>
+      <a href="#">Report Infringement</a>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <h4>CONSUMER POLICY</h4>
+      <a href="#">Return Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Security</a>
+      <a href="#">Privacy</a>
+      <a href="#">Sitemap</a>
+      <a href="#">EPR Compliance</a>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col">
+      <h4>SOCIAL</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">YouTube</a>
+    </div>
+
+    <!-- Column 5 -->
+    <div class="footer-col">
+      <h4>Mail Us:</h4>
+      <address>
+        Flipkart Internet Private Limited,<br>
+        Buildings Alyssa, Begonia &amp; Clove Embassy Tech Village,<br>
+        Outer Ring Road, Devarabeesanahalli Village,<br>
+        Bengaluru, 560103, Karnataka, India
+      </address>
+    </div>
+
+    <!-- Column 6 -->
+    <div class="footer-col">
+      <h4>Registered Office Address:</h4>
+      <address>
+        Flipkart Internet Private Limited,<br>
+        Buildings Alyssa, Begonia &amp; Clove Embassy Tech Village,<br>
+        Outer Ring Road, Devarabeesanahalli Village,<br>
+        Bengaluru, 560103, Karnataka, India<br>
+        CIN : U51109KA2012PTC066107<br>
+        Telephone: <a href="tel:04445614700">044‑45614700</a>
+      </address>
+    </div>
+  </div>
+
+  <!-- mini strip -->
+  <div class="mini-footer">
+    © 2025 Flipkart Clone | Built by Jeevan George John
+  </div>
+</footer>
+
+
+
+
+  </div>
+</div>
+<script>
+  const track = document.querySelector('.prod-track');
+  document.querySelector('.nav-arrow.left')
+          .addEventListener('click', () => track.scrollBy({left:-320, behavior:'smooth'}));
+  document.querySelector('.nav-arrow.right')
+          .addEventListener('click', () => track.scrollBy({left: 320, behavior:'smooth'}));
+</script>
+
+</body>
+</html>
+
